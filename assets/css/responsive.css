@@ -1,0 +1,178 @@
+/***responsive header******/
+@media only screen and (max-width: 992px) {
+      
+    main.posts-aside{
+  
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+         
+       
+    }
+    .post-content{
+        width: 100%;
+        
+    }
+    .post{
+        width: 100%;
+    }
+    aside{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .new-letter{
+        width: 100%;
+       
+    }
+    .new-letter form{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .categoris{
+        width: 100%;
+    }
+    .popular-post{
+
+        width: 100%;
+        
+    }
+    .popular .image .overlay-popular{
+        position: absolute;
+        bottom: 0;
+        background-color: #fff;
+        width: 30%;
+        padding: .5rem;
+    }
+    .post-details-image{
+        width: 100%;
+    }
+    footer .footer-content{
+        flex-direction: column;
+    }
+    footer .about-us,.email,.follow-us{
+        width: 100%;
+    }
+    footer .follow-us .iconParent{
+        justify-content: flex-start;
+    }
+    footer .follow-us .iconParent i{
+       margin: 0 1rem;
+    }
+    footer .email .input-email i{
+        font-size: .8rem;
+    }
+   
+  } 
+
+  @media only screen and (max-width: 768px){
+    footer .input-email input{
+        font-size: 1rem;
+        width: 100%;
+        min-width: 150px;
+    }
+    footer .email .icon{
+        padding: .2rem .8rem;
+        text-align: center;
+    }
+    .icons-people-single-page .icons-container{
+        display: block;
+       
+    }
+    .icons-people-single-page .icons-container .icon-info{
+        width: 100%;
+        margin: 1rem 0;
+    }
+  
+  }
+
+
+
+
+@media only screen and (max-width: 600px) {
+    main.posts-aside{
+        padding: 1rem;
+    }
+
+    .description-details-post .firt-info-with-style{
+        padding: .5rem;
+    }
+    .post-content .post-details-imag{
+        width: 100%;
+    }
+    .coment-box{
+        width: 100%;
+        padding: 1rem;
+    }
+    header{
+        height: 5rem;
+    }
+    header .container .fa-bars{
+        display: block;
+        cursor: pointer;
+    }
+
+    
+    header .navbar{
+        height: 100vh;
+        width: 50%;
+        position: fixed;
+        bottom: 0;
+        top: 5rem;
+        right: -100%;
+        z-index: 1000;
+        background-color: var(--backgroundheader--color);
+        transition: all .3s;
+       
+    }
+    header .navbar.active{
+        right: 0;
+
+    }
+    .navbar-list{
+        
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+
+    }
+    .navbar-list>li{
+        
+        width: 100%;
+    }
+
+    .navbar-list>li>a{
+        width: 100%;
+    }
+    .ul-sub-menue-list{
+        position: relative;
+        height: 0px;
+        right: 0;
+        
+    }
+    .sub-menu:hover .ul-sub-menue-list{
+        
+        height: fit-content;
+    }
+    .post-image .overlay{
+        width: 90%;
+    }
+    .popular .image .overlay-popular{
+        
+        width: 70%;
+        text-align: center;
+     
+    }
+    .person-info-avatar{
+        display: flex;
+       flex-direction: column;
+     padding-left: 20%;
+    }
+   
+  }
+
+
+

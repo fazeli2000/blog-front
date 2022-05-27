@@ -1,0 +1,27 @@
+@font-face {
+    font-family: 'vazirbold';
+    src: url('../vazir-font-v16.1.0/Vazir-Bold.eot') format('eot') ,/*ie*/
+    url('../vazir-font-v16.1.0/Vazir-Bold.ttf') format('truetype'),
+    url('../vazir-font-v16.1.0/Vazir-Bold.woff') format('woff'),
+    url('../vazir-font-v16.1.0/Vazir-Bold.woff2') format('woff2');
+   
+}
+@font-face {
+    font-family: 'vazirlight';
+    src: url('../vazir-font-v16.1.0/Vazir-Light.eot') format('eot'),
+        url('../vazir-font-v16.1.0/Vazir-Light.ttf') format('truetype'),
+        url('../vazir-font-v16.1.0/Vazir-Light.woff') format('woff'),
+        url('../vazir-font-v16.1.0/Vazir-Light.woff2') format('woff2');
+}
+@font-face {
+    font-family: 'vzirmedium';
+    src: url('../vazir-font-v16.1.0/Vazir-Medium.eot') format('eot'),
+        url('../vazir-font-v16.1.0/Vazir-Medium.ttf') format('truetype'),
+        url('../vazir-font-v16.1.0/Vazir-Medium.woff') format('woff'),
+        url('../vazir-font-v16.1.0/Vazir-Medium.woff2')  format('woff2');
+}
+:root{
+    --backgroundheader--color:#3D6271;
+    --backgroundSub--color:#45A298;
+    --backgroundsubOfsub--color:#3D899C;
+}
